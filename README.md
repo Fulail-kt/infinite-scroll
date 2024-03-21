@@ -39,7 +39,7 @@ This project is a React application that fetches videos from YouTube based on a 
    ```bash
    git clone https://github.com/Fulail-kt/infinite-scroll
 
-   cd inifinite-scroll
+   cd infinite-scroll
 
 2. Install Deppendencies
 
