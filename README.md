@@ -11,8 +11,7 @@ This project implements an infinite scroll feature using the YouTube API to disp
   - [Technologies Used](#technologies-used)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [License](#license)
+
 
 ## Description
 
