@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Infinite Scroll Task with YouTube API
 
-## Getting Started
+This project implements an infinite scroll feature using the YouTube API to display videos based on a search query.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Infinite Scroll Task with YouTube API](#infinite-scroll-task-with-youtube-api)
+  - [Table of Contents](#table-of-contents)
+  - [Description](#description)
+  - [Features](#features)
+  - [Technologies Used](#technologies-used)
+  - [Installation](#installation)
+  - [Usage](#usage)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Description
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project is a React application that fetches videos from YouTube based on a search query. It implements an infinite scroll feature, allowing users to load more videos as they scroll down the page. The application utilizes the YouTube Data API v3 for fetching videos and Axios for making HTTP requests.
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- Displays videos from YouTube based on a search query.
+- Implements infinite scroll to load more videos as the user scrolls down.
+- Utilizes Nextjs for frontend development.
+- Uses Axios for making HTTP requests.
+- Uses React Spinners for loading animation.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Next.js
+- Axios
+- React Spinners
 
-## Deploy on Vercel
+## Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repository:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   git clone https://github.com/Fulail-kt/infinite-scroll
+
+   cd infinite-scroll
+
+2. Install Deppendencies
+
+   npm install
+
+3. Set .env.local
+
+  NEXT_PUBLIC_API_KEY="Your Project Youtube API Secret Key"
+
+3. Start the development server
+  
+   npm run dev
+
+## Usage
+
+Enter a search query in the search input field and press the "Search" button to fetch related videos.
+Scroll down to load more videos automatically with the infinite scroll feature.
+Videos are displayed with their thumbnails and titles.
